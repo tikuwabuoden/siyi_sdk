@@ -23,7 +23,7 @@ def test():
         print("No connection ")
         exit(1)
 
-    cam.setGimbalRotation(10,-50)
+    cam.setGimbalRotation(0,0)
 
     print("Attitude (yaw,pitch,roll) eg:", cam.getAttitude())
     

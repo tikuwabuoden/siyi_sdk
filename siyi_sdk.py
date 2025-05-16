@@ -951,7 +951,7 @@ class SIYISDK:
             self._logger.error("desired pitch is outside controllable range -90~25")
             return
 
-        if (yaw >45 or yaw <-45):
+        if (yaw >135 or yaw <-135):
             self._logger.error("Desired yaw is outside controllable range -45~45")
             return
 
